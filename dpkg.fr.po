@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: dpkg 1.17.0\n"
 "Report-Msgid-Bugs-To: debian-dpkg@lists.debian.org\n"
 "POT-Creation-Date: 2023-01-24 22:39+0000\n"
-"PO-Revision-Date: 2023-01-26 17:58+0100\n"
+"PO-Revision-Date: 2023-01-29 22:24+0100\n"
 "Last-Translator: Sébastien Poher <sbphr@volted.net>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
@@ -338,7 +338,7 @@ msgstr "%s: impossible de créer le contexte du compression zstd"
 #: lib/dpkg/compress.c
 #, c-format
 msgid "%s: zstd read error"
-msgstr "%s : erreur de lecture zstd "
+msgstr "%s : erreur de lecture zstd"
 
 #: lib/dpkg/compress.c
 #, c-format
@@ -528,7 +528,7 @@ msgstr ""
 #: lib/dpkg/db-ctrl-upgrade.c
 #, c-format
 msgid "info file %s/%s not associated to any package"
-msgstr "Le fichier d'informations %s/%s n'est associé à aucun paquet."
+msgstr "le fichier info %s/%s n'est associé à aucun paquet"
 
 #: lib/dpkg/db-ctrl-upgrade.c src/main/archives.c
 #, c-format
@@ -758,7 +758,7 @@ msgstr "impossible d'ouvrir le fichier « %s »"
 #: src/divert/main.c utils/update-alternatives.c
 #, c-format
 msgid "unable to sync file '%s'"
-msgstr "impossible de synchron « %.250s »"
+msgstr "impossible de synchroniser le fichier « %s »"
 
 #: lib/dpkg/dump.c
 #, c-format
@@ -1694,8 +1694,7 @@ msgstr ""
 #, c-format
 msgid "cannot convert multibyte sequence '%s' to a wide character"
 msgstr ""
-"impossible de convertir la séquence multioctets « %s » vers une séquence à "
-"caractères étendus (16 bits)."
+"ne peut pas convertir la séquence multi-octets '%s' en un caractère large"
 
 #: lib/dpkg/subproc.c
 #, c-format
@@ -2145,12 +2144,12 @@ msgstr "Autoriser l'installation de paquets en conflit"
 
 #: src/common/force.c
 msgid "Turn all dependency problems into warnings"
-msgstr "Changer tous les problèmes de dépendances en avertissements "
+msgstr "Changer tous les problèmes de dépendances en avertissements"
 
 #: src/common/force.c
 msgid "Turn dependency version problems into warnings"
 msgstr ""
-"Changer tous les problèmes de dépendances de versions en avertissements "
+"Changer tous les problèmes de dépendances de versions en avertissements"
 
 #: src/common/force.c
 msgid "Remove packages which require installation"
@@ -2231,7 +2230,7 @@ msgstr "problème contourné par utilisation de --force :"
 
 #: src/common/selinux.c
 msgid "cannot open security status notification channel"
-msgstr "Impossible d'ouvrir le canal de notification pour l'état de sécurité."
+msgstr "impossible d'ouvrir le canal de notification pour l'état de sécurité"
 
 #: src/common/selinux.c
 msgid "cannot get security labeling handle"
@@ -3816,8 +3815,8 @@ msgstr "Ajout de « %s »\n"
 #, c-format
 msgid "Ignoring request to rename file '%s' owned by diverting package '%s'\n"
 msgstr ""
-"requête ignorée de renommage du fichier « %s » qui est une diversion du "
-"paquet « %s »\n"
+"La requête de renommage du fichier « %s » qui est une diversion du paquet "
+"« %s » a été ignorée\n"
 
 #: src/divert/main.c
 #, c-format
@@ -3858,7 +3857,7 @@ msgstr ""
 #: src/divert/main.c
 #, c-format
 msgid "Ignoring request to remove shared diversion '%s'.\n"
-msgstr "requête ignorée de suppression de la diversion partagée %s.\n"
+msgstr "Requête de suppression de la diversion partagée %s ignorée.\n"
 
 #: src/divert/main.c
 #, c-format
@@ -3967,7 +3966,7 @@ msgstr "--%s a besoin de quatre paramètres"
 
 #: src/statoverride/main.c
 msgid "path may not contain newlines"
-msgstr "le chemin ne peut contenir de caractère de retour à la ligne."
+msgstr "le chemin ne peut contenir de caractère de retour à la ligne"
 
 #: src/statoverride/main.c
 #, c-format
@@ -4386,7 +4385,7 @@ msgstr "impossible de créer « %.255s » (pendant le traitement de « %.255s
 #, c-format
 msgid "cannot copy extracted data for '%.255s' to '%.255s': %s"
 msgstr ""
-"impossible de copier les données extraites pour « %.250s » vers « %.255s » : "
+"impossible de copier les données extraites pour « %.255s » vers « %.255s » : "
 "%s"
 
 #: src/main/archives.c
@@ -4733,7 +4732,7 @@ msgstr "il est envisagé de retirer %s en faveur de %s..."
 #: src/main/archives.c
 #, c-format
 msgid "%s is not properly installed; ignoring any dependencies on it"
-msgstr "%s n'est pas correctement installé ; ses dépendances sont ignorées."
+msgstr "%s n'est pas correctement installé ; ses dépendances sont ignorées"
 
 #: src/main/archives.c
 #, c-format
@@ -4746,17 +4745,17 @@ msgid ""
 "package %s requires reinstallation, but will remove anyway as you requested"
 msgstr ""
 "le paquet %s requiert une réinstallation mais sera supprimé quand même, "
-"comme demandé."
+"comme demandé"
 
 #: src/main/archives.c
 #, c-format
 msgid "package %s requires reinstallation, will not remove"
-msgstr "le paquet %s requiert une réinstallation, suppression annulée."
+msgstr "le paquet %s requiert une réinstallation, suppression annulée"
 
 #: src/main/archives.c
 #, c-format
 msgid "yes, will remove %s in favour of %s"
-msgstr "oui, suppression de %s en faveur de %s."
+msgstr "oui, supprimera %s en faveur de %s"
 
 #: src/main/archives.c
 #, c-format
@@ -4782,16 +4781,14 @@ msgid "--%s needs at least one package archive file argument"
 msgstr "--%s a besoin d'au moins un fichier archive de paquet comme paramètre"
 
 #: src/main/archives.c src/main/unpack.c
-#, fuzzy, c-format
-#| msgid "cannot access archive"
+#, c-format
 msgid "cannot access archive '%s'"
-msgstr "ne peut pas accéder à l'archive"
+msgstr "ne peut pas accéder à l'archive « %s »"
 
 #: src/main/archives.c
-#, fuzzy, c-format
-#| msgid "conffile '%s' is not a plain file"
+#, c-format
 msgid "archive '%s' is not a regular file"
-msgstr "le fichier de configuration « %s » n'est pas vraiment un fichier"
+msgstr "l’archive « %s » n'est pas un fichier classique"
 
 #: src/main/archives.c
 #, c-format
@@ -5167,10 +5164,9 @@ msgstr ""
 "lien (= « %s »)"
 
 #: src/main/configure.c
-#, fuzzy, c-format
-#| msgid "%s: unable to open %s for hash: %s"
+#, c-format
 msgid "%s: unable to open %s to compute its digest: %s"
-msgstr "%s : impossible d'ouvrir %s pour hachage : %s"
+msgstr "%s : impossible d'ouvrir %s pour calculer son hachage : %s"
 
 #: src/main/depcon.c
 #, c-format
@@ -5417,22 +5413,16 @@ msgstr[0] " %d paquet, appartenant aux sections suivantes :"
 msgstr[1] " %d paquets, appartenant aux sections suivantes :"
 
 #: src/main/enquiry.c
-#, fuzzy
-#| msgid "Pre-Depends field"
 msgid "the Pre-Depends field"
 msgstr "champ Pre-Depends"
 
 #: src/main/enquiry.c
-#, fuzzy
-#| msgid "epoch in version is negative"
 msgid "epochs in versions"
-msgstr "l'époque (epoch) dans la version est négative"
+msgstr "l'époque (epoch) dans les versions"
 
 #: src/main/enquiry.c
-#, fuzzy
-#| msgid "long filenames"
 msgid "long filenames in .deb archives"
-msgstr "noms de fichiers longs"
+msgstr "noms de fichiers longs dans les archives .deb"
 
 #: src/main/enquiry.c
 msgid "multiple Conflicts and Replaces"
@@ -5447,28 +5437,24 @@ msgid "versioned relationships in the Provides field"
 msgstr "relations versionnées dans le champ Provides"
 
 #: src/main/enquiry.c
-#, fuzzy
-#| msgid "Pre-Depends field"
 msgid "the Protected field"
-msgstr "champ Pre-Depends"
+msgstr "le champ Protected"
 
 #: src/main/enquiry.c
-#, fuzzy, c-format
-#| msgid "cannot extract package field value from '%s': %s"
+#, c-format
 msgid "cannot parse dpkg running version '%s': %s"
-msgstr "impossible d'extraire la valeur du champ dans « %s » : %s"
+msgstr ""
+"impossible d’analyser la version de dpkg en cours d’exécution « %s » : %s"
 
 #: src/main/enquiry.c
-#, fuzzy, c-format
-#| msgid ""
-#| "Version of dpkg with working %s support not yet configured.\n"
-#| " Please use 'dpkg --configure dpkg', and then try again.\n"
+#, c-format
 msgid ""
 "Running version of dpkg does not support %s.\n"
 " Please upgrade to at least dpkg %s, and then try again.\n"
 msgstr ""
-"La version de dpkg qui gère %s n'est pas encore configurée.\n"
-" Veuillez utiliser « dpkg --configure dpkg » et essayer à nouveau.\n"
+"La version courante de dpkg ne prend pas en charge %s.\n"
+" Veuillez effectuer une mise à niveau vers au moins dpkg %s, puis "
+"réessayez.\n"
 
 #: src/main/enquiry.c
 #, c-format
@@ -5498,46 +5484,39 @@ msgstr ""
 "ne peut satisfaire les pré-dépendances pour %.250s (réclamé par %.250s)"
 
 #: src/main/enquiry.c
-#, fuzzy, c-format
-#| msgid "--%s takes one package name argument"
+#, c-format
 msgid "--%s takes one <pkgname> argument"
-msgstr "--%s utilise un nom de paquet comme paramètre"
+msgstr "--%s prend un argument <nom de paquet>"
 
 #: src/main/enquiry.c
-#, fuzzy, c-format
-#| msgid "package '%s' is not installed"
+#, c-format
 msgid "package name '%s' is invalid: %s"
-msgstr "paquet « %s » n'est pas installé"
+msgstr "le nom du paquet « %s » n'est pas valide : %s"
 
 #: src/main/enquiry.c
-#, fuzzy, c-format
-#| msgid "--%s takes one package name argument"
+#, c-format
 msgid "--%s takes one <trigname> argument"
-msgstr "--%s utilise un nom de paquet comme paramètre"
+msgstr "--%s prend un argument <nom d’action différée>"
 
 #: src/main/enquiry.c
-#, fuzzy, c-format
-#| msgid "trigger name contains invalid character"
+#, c-format
 msgid "trigger name '%s' is invalid: %s"
-msgstr "nom d'action différée contenant un caractère invalide"
+msgstr "le nom du déclencheur « %s » n'est pas valide : %s"
 
 #: src/main/enquiry.c
-#, fuzzy, c-format
-#| msgid "--%s takes one package name argument"
+#, c-format
 msgid "--%s takes one <archname> argument"
-msgstr "--%s utilise un nom de paquet comme paramètre"
+msgstr "--%s prend un argument <nomarchitecture> "
 
 #: src/main/enquiry.c
-#, fuzzy, c-format
-#| msgid "architecture '%s' is illegal: %s"
+#, c-format
 msgid "architecture name '%s' is invalid: %s"
-msgstr "l'architecture « %s » n'est pas valable : %s"
+msgstr "le nom de l'architecture « %s » n'est pas valable : %s"
 
 #: src/main/enquiry.c
-#, fuzzy, c-format
-#| msgid "--%s takes one argument"
+#, c-format
 msgid "--%s takes one <version> argument"
-msgstr "--%s prend un seul paramètre"
+msgstr "--%s prend un argument <version> "
 
 #: src/main/enquiry.c
 #, c-format
