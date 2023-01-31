@@ -11,15 +11,15 @@ msgstr ""
 "Project-Id-Version: dpkg-dev 1.17.7\n"
 "Report-Msgid-Bugs-To: debian-dpkg@lists.debian.org\n"
 "POT-Creation-Date: 2023-01-24 22:39+0000\n"
-"PO-Revision-Date: 2015-09-08 15:39+0200\n"
-"Last-Translator: Sébastien Poher <sbphr@volted.net>\n"
+"PO-Revision-Date: 2023-01-31 22:19+0100\n"
+"Last-Translator: Sébastien Poher <sebastien@volted.net>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: scripts/dpkg-architecture.pl scripts/dpkg-buildflags.pl
 #: scripts/dpkg-buildpackage.pl scripts/dpkg-checkbuilddeps.pl
@@ -629,7 +629,7 @@ msgstr "option ou paramètre inconnu %s"
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
 msgid "option %s is only meaningful with option %s"
-msgstr ""
+msgstr "l'option %s n'a de sens qu'avec l'option %s"
 
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
@@ -726,16 +726,19 @@ msgstr "type de fichier inconnu"
 #, perl-format
 msgid "%s field keyword \"%s\" is unknown in dpkg namespace"
 msgstr ""
+"le mot-clé « %s » du champ %s est inconnu dans l'espace de noms de dpkg"
 
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
 msgid "%s field keyword \"%s\" is uppercase; use \"%s\" instead"
 msgstr ""
+"le mot clé « %s » du champ %s est en majuscule ; utilisez « %s » à la place"
 
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
 msgid "%s field keyword \"%s\" is invalid; use \"%s\" instead"
 msgstr ""
+"le mot clé « %s » du champ %s n’est pas valable ; utilisez « %s » à la place"
 
 #: scripts/dpkg-buildpackage.pl
 #, fuzzy, perl-format
@@ -753,6 +756,8 @@ msgstr "le champ Files contient une ligne mal formée « %s »"
 #, perl-format
 msgid "%s field contains both global and implementation specific keywords"
 msgstr ""
+"le champ %s contient à la fois des mots-clés globaux et des mots-clés "
+"spécifiques à la mise en œuvre"
 
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
@@ -765,6 +770,8 @@ msgid ""
 "short OpenPGP key IDs are broken; please use key fingerprints in %s or %s "
 "instead"
 msgstr ""
+"les identifiants courts des clés OpenPGP ne fonctionnent plus ; veuillez "
+"utiliser les empreintes de clés dans %s ou %s à la place"
 
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
@@ -772,6 +779,8 @@ msgid ""
 "long OpenPGP key IDs are strongly discouraged; please use key fingerprints "
 "in %s or %s instead"
 msgstr ""
+"il est fortement déconseillé d'utiliser des identifiants de clé OpenPGP "
+"longs ; veuillez plutôt utiliser les empreintes de clé dans %s ou %s"
 
 #: scripts/dpkg-buildpackage.pl scripts/dpkg-checkbuilddeps.pl
 #: scripts/dpkg-genbuildinfo.pl scripts/dpkg-name.pl scripts/Dpkg/Arch.pm
