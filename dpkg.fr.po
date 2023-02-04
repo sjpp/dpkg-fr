@@ -179,7 +179,7 @@ msgstr "fin de fichier ou de flux inattendue"
 
 #: lib/dpkg/buffer.c
 msgid "failed to seek"
-msgstr "impossible d'accéder"
+msgstr "impossible de se déplacer"
 
 #: lib/dpkg/command.c lib/dpkg/path-remove.c src/split/split.c
 #: src/main/unpack.c utils/update-alternatives.c
@@ -298,7 +298,7 @@ msgstr "le format de fichier n'est pas reconnu"
 
 #: lib/dpkg/compress.c
 msgid "unsupported type of integrity check"
-msgstr "type de contrôle d'intégrité non géré"
+msgstr "type de contrôle d'intégrité non pris en charge"
 
 #: lib/dpkg/compress.c
 #, c-format
@@ -394,17 +394,17 @@ msgstr "impossible de supprimer le fichier de mise à jour incorporé %.255s"
 #: lib/dpkg/dbmodify.c
 #, c-format
 msgid "unable to fill %.250s with padding"
-msgstr "impossible de mettre en forme %.250s"
+msgstr "impossible de remplir %.250s avec du bourrage"
 
 #: lib/dpkg/dbmodify.c
 #, c-format
 msgid "unable to flush %.250s after padding"
-msgstr "vidage impossible de %.250s après la mise en forme"
+msgstr "vidage impossible de %.250s après le bourrage"
 
 #: lib/dpkg/dbmodify.c
 #, c-format
 msgid "unable to seek to start of %.250s after padding"
-msgstr "déplacement impossible au début de %.250s après la mise en forme"
+msgstr "déplacement impossible au début de %.250s après le bourrage"
 
 #: lib/dpkg/dbmodify.c
 #, c-format
@@ -417,14 +417,14 @@ msgstr ""
 #, c-format
 msgid "unable to open/create dpkg frontend lock for directory %s"
 msgstr ""
-"impossible de créer/d'ouvrir le fichier de verrouillage de l'interface de "
+"impossible de créer/ouvrir le fichier de verrouillage de l'interface de "
 "dpkg pour le répertoire %s"
 
 #: lib/dpkg/dbmodify.c
 #, c-format
 msgid "unable to open/create dpkg database lock file for directory %s"
 msgstr ""
-"impossible de créer/d'ouvrir le fichier de verrouillage de la base de "
+"impossible de créer/ouvrir le fichier de verrouillage de la base de "
 "données de dpkg pour le répertoire %s"
 
 #: lib/dpkg/dbmodify.c/
@@ -627,12 +627,12 @@ msgstr[1] "%d fichiers et répertoires déjà installés.)\n"
 #: lib/dpkg/db-fsys-override.c
 #, c-format
 msgid "invalid statoverride uid %s"
-msgstr "le fichiers des permissions avec l'uid %s est non valable"
+msgstr "l'uid %s du fichier des permissions est non valable"
 
 #: lib/dpkg/db-fsys-override.c
 #, c-format
 msgid "invalid statoverride gid %s"
-msgstr "le fichier des permissions avec le gid %s est non valable"
+msgstr "le gid %s du fichier des permissions est non valable"
 
 #: lib/dpkg/db-fsys-override.c
 #, c-format
@@ -641,7 +641,7 @@ msgstr "le mode %s du fichier des permissions est non valable"
 
 #: lib/dpkg/db-fsys-override.c
 msgid "failed to open statoverride file"
-msgstr "impossible d'ouvrir fichier des permissions (statoverride)"
+msgstr "impossible d'ouvrir le fichier des permissions (statoverride)"
 
 #: lib/dpkg/db-fsys-override.c
 msgid "failed to fstat statoverride file"
@@ -663,7 +663,7 @@ msgstr "le fichier des permissions (« statoverride ») contient une ligne vid
 
 #: lib/dpkg/db-fsys-override.c
 msgid "syntax error in statoverride file"
-msgstr "impossible d'ouvrir fichier des permissions (« statoverride »)"
+msgstr "impossible d'ouvrir le fichier des permissions (« statoverride »)"
 
 #: lib/dpkg/db-fsys-override.c
 #, c-format
@@ -724,7 +724,7 @@ msgstr "version de format sans composant secondaire"
 
 #: lib/dpkg/deb-version.c
 msgid "format version followed by junk"
-msgstr "version de format suivie par n'importe quoi"
+msgstr "version de format suivie par des déchets"
 
 #: lib/dpkg/debug.c
 #, c-format
@@ -947,7 +947,7 @@ msgstr "racine ou répertoire vide listé comme conffile dans le champ « %s �
 msgid ""
 "'%s' field, missing package name, or garbage where package name expected"
 msgstr ""
-"champ « %s », nom de paquet manquant, ou absurdités à la place d'un nom de "
+"champ « %s », nom de paquet manquant, ou déchets à la place d'un nom de "
 "paquet"
 
 #: lib/dpkg/fields.c
@@ -961,7 +961,7 @@ msgid ""
 "'%s' field, missing architecture name, or garbage where architecture name "
 "expected"
 msgstr ""
-"champ « %s », nom d'architecture manquant, ou absurdités à la place d'un nom "
+"champ « %s », nom d'architecture manquant, ou déchets à la place d'un nom "
 "d'architecture"
 
 #: lib/dpkg/fields.c
@@ -1088,7 +1088,7 @@ msgstr "impossible d’analyser « %s »"
 #: lib/dpkg/file.c
 #, c-format
 msgid "%s is not a regular file"
-msgstr "« %s » n'est pas vraiment un fichier"
+msgstr "« %s » n'est pas un fichier ordinaire"
 
 #: lib/dpkg/file.c
 #, c-format
@@ -1193,7 +1193,7 @@ msgstr "échec de dup sur fd %d"
 #: lib/dpkg/mlib.c
 #, c-format
 msgid "failed to dup for std%s"
-msgstr "échec de « dup » sur std%s"
+msgstr "échec de dup sur std%s"
 
 #: lib/dpkg/mlib.c
 msgid "failed to create pipe"
@@ -1217,7 +1217,7 @@ msgstr "impossible de positionner le drapeau « close-on-exec » pour %.250s"
 #: lib/dpkg/options-parsers.c
 #, c-format
 msgid "--%s needs a valid package name but '%.250s' is not: %s"
-msgstr "--%s requiert un nom de paquet légal. « %.250s » ne l'est pas ; %s"
+msgstr "--%s requiert un nom de paquet valable. « %.250s » ne l'est pas ; %s"
 
 #: lib/dpkg/options.c
 #, c-format
@@ -1646,7 +1646,7 @@ msgstr "avertissement"
 msgid "cannot convert multibyte string '%s' to a wide-character string"
 msgstr ""
 "impossible de convertir la chaîne de caractères multioctets « %s » vers une "
-"chaîne à caractères étendus (16 bits)"
+"chaîne à caractères larges (16 bits)"
 
 #: lib/dpkg/strwide.c
 #, c-format
@@ -1657,7 +1657,7 @@ msgstr ""
 #: lib/dpkg/subproc.c
 #, c-format
 msgid "error un-catching signal %s: %s\n"
-msgstr "erreur signal %s non-capturé : %s\n"
+msgstr "erreur signal %s non capturé : %s\n"
 
 #: lib/dpkg/subproc.c
 #, c-format
@@ -2109,7 +2109,7 @@ msgstr ""
 "  avertir et continuer :  --force-<option>,<option>,...\n"
 "  arrêter sur erreur :    --refuse-<option>,<option>,... | --no-force-"
 "<option>,...\n"
-" Ce qui peut être forcé:\n"
+" Ce qui peut être forcé :\n"
 
 #: src/common/force.c
 #, c-format
@@ -2119,12 +2119,8 @@ msgid ""
 "Forcing options marked [*] are enabled by default.\n"
 msgstr ""
 "\n"
-"AVERTISSEMENT - les options marquées avec [!] can seriously damage your "
-"installation.\n"
-"Forcing options marked [*] are enabled by default.\n"
 "ATTENTION : utiliser une option marquée [!] peut sérieusement endommager "
-"votre\n"
-"installation.\n"
+"votre installation.\n"
 "Les options de forçage marquées [*] sont activées par défaut.\n"
 
 #: src/common/force.c src/deb/build.c src/deb/extract.c src/deb/info.c
@@ -2251,7 +2247,7 @@ msgstr ""
 #, c-format
 msgid "line with conffile filename '%s' has leading white spaces"
 msgstr ""
-"la ligne avec le nom de fichier conffile « %s » comporte des espaces blancs "
+"la ligne avec le nom de fichier conffile « %s » comporte des espaces "
 "en tête de ligne"
 
 #: src/deb/build.c src/main/unpack.c
@@ -2292,7 +2288,7 @@ msgstr "le conffile « %s » est présent mais sa suppression est requise"
 #: src/deb/build.c
 #, c-format
 msgid "conffile '%s' is not a plain file"
-msgstr "le fichier de configuration « %s » n'est pas vraiment un fichier"
+msgstr "le fichier de configuration « %s » n'est pas un fichier ordinaire"
 
 #: src/deb/build.c
 #, c-format
@@ -2411,7 +2407,7 @@ msgstr "impossible de copier « %s » dans l'archive « %s » : %s"
 
 #: src/deb/extract.c
 msgid "shell command to move files"
-msgstr "processeur de commandes pour déplacer des fichiers"
+msgstr "commande de l'interpréteur pour déplacer des fichiers"
 
 #: src/deb/extract.c src/split/main.c
 #, c-format
@@ -2540,12 +2536,12 @@ msgstr "« %.255s » n'est pas une archive de format Debian"
 #, c-format
 msgid "cannot copy archive member from '%s' to decompressor pipe: %s"
 msgstr ""
-"impossible de copier le membre de l'archive depuis « %s » dans le tuyau\n"
+"impossible de copier le membre de l'archive depuis « %s » dans le tube\n"
 "du décompresseur : %s"
 
 #: src/deb/extract.c
 msgid "cannot close decompressor pipe"
-msgstr "impossible de fermer le tuyau du décompresseur"
+msgstr "impossible de fermer le tube du décompresseur"
 
 #: src/deb/extract.c
 #, c-format
@@ -2581,12 +2577,12 @@ msgstr "--%s a besoin d'un fichier .deb comme paramètre"
 #: src/deb/extract.c
 #, c-format
 msgid "--%s takes only one argument (.deb filename)"
-msgstr "--%s a besoin d'un seul paramètre (nom de fichier .deb)"
+msgstr "--%s n'accepte qu'un seul paramètre (nom de fichier .deb)"
 
 #: src/deb/extract.c
 #, c-format
 msgid "--%s takes at most two arguments (.deb and directory)"
-msgstr "--%s a besoin d'au plus deux paramètres (.deb et répertoire)"
+msgstr "--%s n'accepte qu'au plus deux paramètres (.deb et répertoire)"
 
 #: src/deb/extract.c
 #, c-format
@@ -2667,7 +2663,7 @@ msgstr " %7jd octets, %5d lignes   %c  %-20.127s %.127s\n"
 #: src/deb/info.c
 #, c-format
 msgid "     not a plain file          %.255s\n"
-msgstr "     n'est pas un simple fichier          %.255s\n"
+msgstr "     n'est pas un fichier ordinaire         %.255s\n"
 
 #: src/deb/info.c
 msgid "no 'control' file in control archive!"
@@ -2921,7 +2917,7 @@ msgstr "paramètres de compression non valables : %s"
 #: src/deb/main.c
 #, c-format
 msgid "unsupported compression type '%s' with uniform compression"
-msgstr "type de compression « %s » non géré avec compression uniforme"
+msgstr "type de compression « %s » non pris en charge avec compression uniforme"
 
 #: src/split/info.c
 #, c-format
@@ -2954,7 +2950,7 @@ msgstr "erreur de lecture sur %.250s"
 msgid "file '%.250s' is corrupt - bad magic at end of first header"
 msgstr ""
 "le fichier « %.250s » est corrompu - mauvais nombre magique (« magic ») à la "
-"fin  du premier en-tête"
+"fin du premier en-tête"
 
 #: src/split/info.c
 #, c-format
@@ -3158,7 +3154,7 @@ msgstr "impossible de (r)ouvrir le fichier d'entrée « %.250s »"
 #: src/split/join.c
 #, c-format
 msgid "cannot skip split package header for '%s': %s"
-msgstr "impossible depasse  l'en-tête d'un paquet découpé pour « %s » : %s"
+msgstr "impossible de passer l'en-tête d'un paquet découpé pour « %s » : %s"
 
 #: src/split/join.c
 #, c-format
@@ -3366,7 +3362,7 @@ msgstr " %s (%jd octets)\n"
 #: src/split/queue.c
 #, c-format
 msgid " %s (not a plain file)\n"
-msgstr " %s (ce n'est pas un simple fichier)\n"
+msgstr " %s (ce n'est pas un fichier ordinaire)\n"
 
 #: src/split/queue.c
 msgid "Packages not yet reassembled:\n"
@@ -3380,7 +3376,7 @@ msgstr " Paquet %s : partie(s) "
 #: src/split/queue.c
 #, c-format
 msgid "part file '%.250s' is not a plain file"
-msgstr "le fichier partie « %.250s » n'est pas un simple fichier"
+msgstr "le fichier partie « %.250s » n'est pas un fichier ordinaire"
 
 #: src/split/queue.c
 #, c-format
@@ -3412,12 +3408,12 @@ msgstr "impossible d'ouvrir le fichier source « %.250s »"
 
 #: src/split/split.c
 msgid "unable to fstat source file"
-msgstr "impossible de « fstat » le fichier source"
+msgstr "impossible d'analyser avec « fstat » le fichier source"
 
 #: src/split/split.c
 #, c-format
 msgid "source file '%.250s' not a plain file"
-msgstr "le fichier source « %.250s » n'est pas un simple fichier"
+msgstr "le fichier source « %.250s » n'est pas un fichier ordinaire"
 
 #: src/split/split.c src/main/configure.c src/main/verify.c
 #, c-format
@@ -3810,7 +3806,7 @@ msgstr "--%s a besoin de quatre paramètres"
 
 #: src/statoverride/main.c
 msgid "path may not contain newlines"
-msgstr "le chemin ne peut contenir de caractère de retour à la ligne"
+msgstr "le chemin ne peut contenir de caractère retour à la ligne"
 
 #: src/statoverride/main.c
 #, c-format
@@ -4050,7 +4046,7 @@ msgstr "détourné localement en : %s\n"
 #: src/query/main.c
 #, c-format
 msgid "package diverts others to: %s\n"
-msgstr "paquet détournant les autres vers : %s\n"
+msgstr "paquet détourne les autres vers : %s\n"
 
 #: src/query/main.c
 #, c-format
@@ -4163,7 +4159,7 @@ msgstr "erreur de lecture du tube de dpkg-deb"
 #, c-format
 msgid "cannot skip padding for file '%.255s': %s"
 msgstr ""
-"impossible de ne pas faire de complément (« padding ») pour le fichier "
+"impossible de ne pas faire de bourrage (« padding ») pour le fichier "
 "« %.255s » : %s"
 
 #: src/main/archives.c
@@ -4171,7 +4167,7 @@ msgstr ""
 msgid "cannot skip file '%.255s' (replaced or excluded?) from pipe: %s"
 msgstr ""
 "impossible de passer le fichier « %.255s » (remplacé ou exclu ?) dans le "
-"tuyau : %s"
+"tube : %s"
 
 #: src/main/archives.c
 #, c-format
@@ -4220,7 +4216,7 @@ msgstr ""
 #: src/main/archives.c
 #, c-format
 msgid "error setting timestamps of '%.255s'"
-msgstr "erreur de paramétrage des cachets de date de « %.255s »"
+msgstr "erreur de définition des horodatages de « %.255s »"
 
 #: src/main/archives.c
 #, c-format
@@ -4548,7 +4544,7 @@ msgstr "--%s --recursive a besoin d'au moins un chemin comme paramètre"
 
 #: src/main/archives.c
 msgid "searched, but found no packages (files matching *.deb)"
-msgstr "recherché, mais aucun paquet trouvé (fichiers *.deb correspondant)"
+msgstr "recherché, mais aucun paquet trouvé (fichiers correspondant à *.deb)"
 
 #: src/main/archives.c
 #, c-format
@@ -4563,7 +4559,7 @@ msgstr "ne peut pas accéder à l'archive « %s »"
 #: src/main/archives.c
 #, c-format
 msgid "archive '%s' is not a regular file"
-msgstr "l’archive « %s » n'est pas un fichier classique"
+msgstr "l’archive « %s » n'est pas un fichier ordinaire"
 
 #: src/main/archives.c
 #, c-format
@@ -4888,7 +4884,7 @@ msgid ""
 "package is in a very bad inconsistent state; you should\n"
 " reinstall it before attempting configuration"
 msgstr ""
-"le paquet est dans un état vraiment incohérent; vous devriez\n"
+"le paquet est dans un état vraiment incohérent ; vous devriez\n"
 " le réinstaller avant de tenter de le configurer"
 
 #: src/main/configure.c
@@ -4935,7 +4931,7 @@ msgstr ""
 #, c-format
 msgid "%s: conffile '%.250s' is not a plain file or symlink (= '%s')"
 msgstr ""
-"%s : le fichier de configuration « %.250s » n'est ni un vrai fichier ni un "
+"%s : le fichier de configuration « %.250s » n'est ni un fichier ordinaire ni un "
 "lien (= « %s »)"
 
 #: src/main/configure.c
@@ -5219,7 +5215,7 @@ msgstr "le champ Protected"
 #, c-format
 msgid "cannot parse dpkg running version '%s': %s"
 msgstr ""
-"impossible d’analyser la version de dpkg en cours d’exécution « %s » : %s"
+"impossible d’obtenir la version de dpkg en cours d’exécution « %s » : %s"
 
 #: src/main/enquiry.c
 #, c-format
@@ -5490,7 +5486,7 @@ msgstr ""
 "sortie standard.\n"
 "  --set-selections                   Définit la liste des sélections à "
 "partir de l'entrée standard.\n"
-"  --clear-selections                 Déselectionne tous les paquets non "
+"  --clear-selections                 Désélectionne tous les paquets non "
 "essentiels.\n"
 "  --update-avail <fichier paquets>   Met à jour les informations sur les "
 "paquets disponibles.\n"
@@ -5510,7 +5506,7 @@ msgstr ""
 "  -S|--search <motif> ...            Trouve le(s) paquet(s) contenant le(s) "
 "fichier(s)\n"
 "  -C|--audit                         Cherche d'éventuels paquets abîmés.\n"
-"  --yet-to-unpack                    Affiche les paquets sélectionnées pour "
+"  --yet-to-unpack                    Affiche les paquets sélectionnés pour "
 "installation.\n"
 "  --predep-packages                  Affiche les pré-dépendances à "
 "dépaqueter.\n"
@@ -5610,7 +5606,7 @@ msgstr ""
 "                                 un motif du shell.\n"
 "  --path-include=<pattern>   Réinclut un motif après une exclusion "
 "antérieure.\n"
-"  -O|--selected-only         Ignore les paquets non sélectionnées pour être\n"
+"  -O|--selected-only         Ignore les paquets non sélectionnés pour être\n"
 "                                 installés ou mis à niveau.\n"
 "  -E|--skip-same-version     Ignore les paquets dont la version est la même\n"
 "                                 que celle installée.\n"
@@ -5639,7 +5635,7 @@ msgstr ""
 "                             Ignore les dépendances impliquant <paquet>.\n"
 "  --force-<objet>[,…]                Passe outre les problèmes (voir --force-"
 "help).\n"
-"  --no-force-<objet>[,…]    S’arrête lors des problèmes sont rencontrés.\n"
+"  --no-force-<objet>[,…]    S’arrête lorsque des problèmes sont rencontrés.\n"
 "  --refuse-<objet>[,…]     Idem.\n"
 "  --abort-after <n>          Arrête après avoir rencontré <n> erreurs.\n"
 "  --robot                    Utilise une sortie lisible par la machine pour\n"
@@ -5794,7 +5790,7 @@ msgstr "erreur à l'exécution du point d'entrée (hook) « %s », code d'erre
 
 #: src/main/main.c
 msgid "status logger"
-msgstr "journalisation de l'état"
+msgstr "journaliseur de l'état"
 
 #: src/main/main.c
 #, c-format
@@ -5809,7 +5805,7 @@ msgstr "l'architecture « %s » est réservée et ne peut être ajoutée"
 #: src/main/main.c
 #, c-format
 msgid "cannot remove non-foreign architecture '%s'"
-msgstr "impossible de supprimer l'architecture non inconnue « %s »"
+msgstr "impossible de supprimer l'architecture non étrangère « %s »"
 
 #: src/main/main.c
 #, c-format
@@ -5822,7 +5818,7 @@ msgstr ""
 #, c-format
 msgid "cannot remove architecture '%s' currently in use by the database"
 msgstr ""
-"impossible de supprimer l'architecture « %s »actuellement utilisée dans la "
+"impossible de supprimer l'architecture « %s » actuellement utilisée dans la "
 "base de données"
 
 #: src/main/main.c
@@ -5833,7 +5829,7 @@ msgstr "impossible d'ouvrir le flux d'entrée « %i »"
 #: src/main/main.c
 #, c-format
 msgid "unexpected end of file before end of line %d"
-msgstr "fin de fichier inattendu avant la fin de la ligne %d"
+msgstr "fin de fichier inattendue avant la fin de la ligne %d"
 
 #: src/main/main.c
 msgid "cannot set primary group ID to root"
@@ -5876,7 +5872,7 @@ msgid ""
 "package %.250s is not ready for trigger processing\n"
 " (current status '%.250s' with no pending triggers)"
 msgstr ""
-"le paquet « %.250s » n'est pas prêt pour les traitement des actions "
+"le paquet « %.250s » n'est pas prêt pour les traitements des actions "
 "différées\n"
 " ( état actuel « %.250s » sans action différée en attente)"
 
@@ -5988,12 +5984,12 @@ msgid ""
 "dependency problems prevent removal of %s:\n"
 "%s"
 msgstr ""
-"un problème de dépendance empêche la suppression de %s :\n"
+"des problèmes de dépendance empêchent la suppression de %s :\n"
 "%s"
 
 #: src/main/remove.c
 msgid "dependency problems - not removing"
-msgstr "problème de dépendance - suppression ignorée"
+msgstr "problèmes de dépendance - suppression ignorée"
 
 #: src/main/remove.c
 #, c-format
@@ -6001,7 +5997,7 @@ msgid ""
 "%s: dependency problems, but removing anyway as you requested:\n"
 "%s"
 msgstr ""
-"%s : problème de dépendance, mais suppression comme demandé :\n"
+"%s : problèmes de dépendance, mais suppression comme demandé :\n"
 "%s"
 
 #: src/main/remove.c
@@ -6255,7 +6251,7 @@ msgid ""
 "%s: dependency problems, but processing triggers anyway as you requested:\n"
 "%s"
 msgstr ""
-"%s : problème de dépendance, mais traitement des actions différées comme "
+"%s : problèmes de dépendance, mais traitement des actions différées comme "
 "demandé :\n"
 "%s"
 
@@ -6464,7 +6460,7 @@ msgid ""
 "old file '%.250s' is the same as several new files! (both '%.250s' and "
 "'%.250s')"
 msgstr ""
-"l'ancien fichier « %.250s » est identique à plusieurs  nouveaux fichiers (à "
+"l'ancien fichier « %.250s » est identique à plusieurs nouveaux fichiers (à "
 "la fois « %.250s » et « %.250s »)"
 
 #: src/main/unpack.c
@@ -6519,7 +6515,7 @@ msgstr "fichier tar du système de fichiers corrompu dans l'archive du paquet"
 #, c-format
 msgid "cannot zap possible trailing zeros from dpkg-deb: %s"
 msgstr ""
-"impossible de supprimer de possibles zéros finaux (i.e. de « trailing ») : %s"
+"impossible de supprimer de possibles zéros finaux de dpkg-deb : %s"
 
 #: src/main/unpack.c
 #, c-format
@@ -6618,7 +6614,7 @@ msgstr ""
 "  --set-selections         lire l'état des alternatives depuis l'entrée "
 "standard.\n"
 "  --config <nom>           afficher l'alternative pour le groupe <nom> et "
-"demande à\n"
+"demander à\n"
 "                           l'utilisateur de sélectionner celle qu'il veut "
 "utiliser.\n"
 "  --set <nom> <chemin>     positionner <chemin> en tant qu'alternative pour "
@@ -6805,7 +6801,7 @@ msgstr "lien secondaire dupliqué %s"
 
 #: utils/update-alternatives.c
 msgid "master file"
-msgstr "ficher maître"
+msgstr "fichier maître"
 
 #: utils/update-alternatives.c
 #, c-format
@@ -7180,7 +7176,7 @@ msgstr "la priorité « %s » doit être un nombre entier"
 #: utils/update-alternatives.c
 #, c-format
 msgid "priority '%s' is out of range"
-msgstr "la priorité '%s' est hors limite"
+msgstr "la priorité '%s' est hors limites"
 
 #: utils/update-alternatives.c
 #, c-format
